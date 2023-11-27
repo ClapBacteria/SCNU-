@@ -28,7 +28,7 @@ int main(void) {
     int i, size = sizeof(a) / sizeof(a[0]);
     int key;
 
-    printf("프로그래머 박수균\n학번: 20204352\n학과: 컴퓨터공학과\n");
+    printf("프로그래머 박수균 \n학번: 20204352 \n학과 : 컴퓨터공학과 \n");
     printf("\n이진 검색(Binary Search)\n");
 
     printf("\n검색 대상 자료\n");
