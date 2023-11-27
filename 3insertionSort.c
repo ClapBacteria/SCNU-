@@ -38,7 +38,7 @@ int main()
     int n = sizeof(a) / sizeof(a[0]);
 
     printf("프로그래머 박수균 \n 학번: 20204352\n");
-    printf("학과: 컴퓨터공학과\n\n삽입 정렬 (insertionsort)\n\n");
+    printf("학과: 컴퓨터공학과 \n\n 삽입 정렬 (insertionsort)\n\n");
 
     printf("정렬 전\n");
     printArray(a, n);
