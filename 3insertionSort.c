@@ -21,7 +21,7 @@ void insertionSort(int a[], int n)
         {
             printf("%d ", a[k]);
         }
-        printf("\n");
+        printf(" \n");
     }
 }
 void printArray(int a[], int n) 
@@ -30,14 +30,14 @@ void printArray(int a[], int n)
     {
         printf("%d ", a[i]);
     }
-    printf("\n");
+    printf(" \n");
 }
 int main() 
 {
     int a[] = {9, 8, 7, 6, 5, 4, 3, 2, 1};
     int n = sizeof(a) / sizeof(a[0]);
 
-    printf("프로그래머 박수균 \n 학번: 20204352\n");
+    printf("프로그래머 박수균 \n학번: 20204352\n");
     printf("학과: 컴퓨터공학과 \n\n 삽입 정렬 (insertionsort)\n\n");
 
     printf("정렬 전\n");
@@ -47,6 +47,6 @@ int main()
     printf("정렬 과정 \n");
     insertionSort(a, n);
 
-    printf("\n");
+    printf(" \n");
     getchar ();
 }
