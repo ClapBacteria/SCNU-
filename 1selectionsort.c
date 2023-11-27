@@ -37,7 +37,7 @@ int main()
     {
         printf("%d ", a[i]);
     }
-    printf("\n\n");
+    printf(" \n\n");
     
     printf("정렬과정 \n");
     selectionsort(a, n);
