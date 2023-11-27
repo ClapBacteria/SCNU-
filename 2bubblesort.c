@@ -40,6 +40,6 @@ int main()
     printf("정렬 과정 \n");
     bubblesort(a, n);
 
-    printf("\n");
+    printf(" \n");
     getchar();
 }
