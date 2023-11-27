@@ -14,13 +14,13 @@ void binarySearch(int a[], int begin, int end, int key) {
     }
     middle = (begin + end) / 2;
     if (key == a[middle])
-        printf("%d번째에 검색 성공!\n", i);
+        printf("%d번째에 검색 성공! \n", i);
     else if (key < a[middle] && (middle - 1 >= begin))
         binarySearch(a, begin, middle - 1, key);
     else if (key > a[middle] && (middle + 1 <= end))
         binarySearch(a, middle + 1, end, key);
     else
-        printf("%d번째에 검색 실패!\n", i);
+        printf("%d번째에 검색 실패! \n", i);
 }
 
 int main(void) {
