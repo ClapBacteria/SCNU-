@@ -9,9 +9,9 @@ void sequentialSearch1(int a[], int n, int key)
         i++;
 
     if (i < n)
-        printf("번호 %d를 %d번째에 검색 성공!\n", key, i + 1);
+        printf("번호 %d를 %d번째에 검색 성공! \n", key, i + 1);
     else
-        printf("번호 %d를 %d번째에 검색 실패!\n", key, i + 1);
+        printf("번호 %d를 %d번째에 검색 실패! \n", key, i + 1);
 }
 
 int main()
