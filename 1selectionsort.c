@@ -21,7 +21,7 @@ void selectionsort(int a[], int n)
         {
             printf("%d ", a[j]);
         }
-        printf("\n");
+        printf(" \n");
     }
 }
 int main() 
