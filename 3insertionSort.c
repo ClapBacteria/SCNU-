@@ -44,7 +44,7 @@ int main()
     printArray(a, n);
 
     printf("\n"); 
-    printf("정렬 과정\n");
+    printf("정렬 과정 \n");
     insertionSort(a, n);
 
     printf("\n");
