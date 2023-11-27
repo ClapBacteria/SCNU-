@@ -7,9 +7,9 @@ void binarySearch(int a[], int begin, int end, int key) {
     i++;
     if (begin == end) {
         if (key == a[begin])
-            printf("%d번째에서 검색 성공!\n", i);
+            printf("%d번째에서 검색 성공! \n", i);
         else
-            printf("%d번째에 검색 실패!\n", i);
+            printf("%d번째에 검색 실패! \n", i);
         return;
     }
     middle = (begin + end) / 2;
