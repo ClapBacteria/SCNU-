@@ -30,7 +30,7 @@ int main()
     int n = sizeof(a) / sizeof(a[0]);
 
     printf("프로그래머 박수균 \n 학번: 20204352\n");
-    printf("학과: 컴퓨터공학과\n\n선택 정렬 (selectionsort)\n\n");
+    printf("학과: 컴퓨터공학과 \n\n 선택 정렬 (selectionsort)\n\n");
 
     printf("정렬전\n");
     for (int i = 0; i < n; i++) 
