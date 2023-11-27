@@ -3,7 +3,7 @@
 void sequentialSearch1(int a[], int n, int key)
 {
     int i = 0;
-    printf("\n번호 %d를 검색\n", key);
+    printf("\n번호 %d를 검색 \n", key);
 
     while (i < n && a[i] != key)
         i++;
