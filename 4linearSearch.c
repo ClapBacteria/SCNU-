@@ -20,10 +20,10 @@ int main()
     int a[] = {9, 8, 7, 6, 5, 4, 3, 2, 1};
     int size = sizeof(a) / sizeof(a[0]);
 
-    printf("프로그래머 박수균 \n 학번: 20204352\n학과 : 컴퓨터공학과 \n");
+    printf("프로그래머 박수균\n 학번: 20204352 \n학과 : 컴퓨터공학과 \n");
     printf("\n순차검색(sequentialsearch) \n");
 
-    printf("\n 검색 대상 자료 \n");
+    printf("\n검색 대상 자료 \n");
     for (i = 0; i < size; i++)
         printf("%d ", a[i]);
     printf("\n\n");
